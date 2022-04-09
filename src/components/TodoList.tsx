@@ -1,8 +1,7 @@
-import { totalmem } from 'os';
-import { title } from 'process';
 import React from 'react';
 import {Todo} from '../entities/Todo';
 import { TodoItem } from './TodoItem';
+import './TodoList.scss';
 
 type Props = {
     todos:  Todo[]

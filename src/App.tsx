@@ -9,6 +9,7 @@ function App() {
       <Header />
       <TodoList todos={[
         {title:"Project Work", isCompleted:false},
+        {title:"Current bill", description:"Pay bore and house bill on phonepe" ,isCompleted:false},
         {title:"Workout", isCompleted:true}
       ]}/>
     </div>
